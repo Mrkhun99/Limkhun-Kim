@@ -5,7 +5,7 @@ void main() {
     MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: Text('Pruducts'),
+          title: Text('products'),
         ),
         backgroundColor: Colors.blue,
         body: Padding(padding: EdgeInsets.all(20),
