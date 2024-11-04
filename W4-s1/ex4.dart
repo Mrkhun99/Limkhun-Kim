@@ -4,7 +4,7 @@ void main() {
   runApp(MyApp());
 }
 
-enum WeatherCondition { sunny, rainy, cloudy, snowy }
+enum WeatherCondition { sunny, rainy, cloudy, snowy}
 
 class MyApp extends StatefulWidget {
   @override
