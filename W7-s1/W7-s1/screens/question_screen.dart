@@ -41,7 +41,6 @@ class _QuestionScreenState extends State<QuestionScreen> {
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          // Display the current question title
           Text(
             currentQuestion.title,
             style: const TextStyle(
@@ -50,7 +49,6 @@ class _QuestionScreenState extends State<QuestionScreen> {
             ),
           ),
           const SizedBox(height: 20),
-          // Render buttons with padding
           for (var answer in currentQuestion.possibleAnswers)
             Padding(
               padding: const EdgeInsets.symmetric(vertical: 8.0), // Add space between buttons
